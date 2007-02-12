@@ -2,7 +2,7 @@
 # - initscript.
 # - shorter description?
 Summary:	Reactive Autonomous Blackhole List (RABL) Project
-Summary(pl.UTF-8):   RABL - reaktywna autonomiczna lista "czarnych dziur"
+Summary(pl.UTF-8):	RABL - reaktywna autonomiczna lista "czarnych dziur"
 Name:		rabl
 Version:	1.0.0
 Release:	0.2
@@ -74,7 +74,7 @@ współpracujących.
 
 %package server
 Summary:	Reactive Autonomous Blackhole List server
-Summary(pl.UTF-8):   Serwer RABL (reaktywnej autonomicznej listy "czarnych dziur")
+Summary(pl.UTF-8):	Serwer RABL (reaktywnej autonomicznej listy "czarnych dziur")
 Group:		Applications/Mail
 %if %{with initscript}
 Requires(post,preun):	rc-scripts
@@ -94,7 +94,7 @@ publicznej RABL potrzebny jest klient RABL.
 
 %package client
 Summary:	Reactive Autonomous Blackhole List client
-Summary(pl.UTF-8):   Klient RABL (reaktywnej autonomicznej listy "czarnych dziur")
+Summary(pl.UTF-8):	Klient RABL (reaktywnej autonomicznej listy "czarnych dziur")
 Group:		Applications/Mail
 
 %description client
